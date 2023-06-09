@@ -68,6 +68,7 @@ function draw_PD()
     ylabel('Probability of Detection (POD)');
     xlim([0, 1]);
     ylim([0, 1]);
+    box on;
 end
 
 %% calculate [(1-FAR), POD] for performance diagram
